@@ -8,20 +8,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
-    <title>My App</title>
+    <title>Animal Farm</title>
 </head>
 
 <body>
     <header>
-        <h1>My App</h1>
+        <h1>Animal Farm</h1>
         <img src="assets/big-logo.png" />
     </header>
     
     <main>
+
+        <p id="instructions">Click images or key the first letter of each animal's type!!!</p>
+
         <div id="sounds-div">
-            <audio id="cat-sound" src="./assets/cat-sound.wav"></audio>
-            <audio id="dog-sound" src="./assets/dog-sound.wav"></audio>
-            <audio id="horse-sound" src="./assets/horse-sound.wav"></audio>
+            <audio id="cat-sound" src="./assets/cat-sound.wav">
+            <audio id="dog-sound" src="./assets/dog-sound.wav">
+            <audio id="horse-sound" src="./assets/horse-sound.wav">
         </div>
 
         <div id="images-div">
@@ -30,12 +33,9 @@
             <img id="horse-image" src="./assets/horse-image.jpg" alt="dog">
         </div>
     </main>
-
     <footer>
         &copy; 2021 Alchemy Code Lab
     </footer>
-
     <script type="module" src="./app.js"></script>
 </body>
-
 </html>

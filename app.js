@@ -15,3 +15,21 @@ const horseImage = document.getElementById('horse-image');
 horseImage.addEventListener('click', () => {
     horseSound.play();
 });
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'c') {
+        catSound.play();
+    }
+});
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'd') {
+        dogSound.play();
+    }
+});
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'h') {
+        horseSound.play();
+    }
+});
